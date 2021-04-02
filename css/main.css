@@ -1,0 +1,55 @@
+/*
+* Müzik Dükkanım
+* CSS
+*/
+
+body {
+    background-color: #e9ecef;
+    font-family: "Lexend", sans-serif;
+}
+
+.orange {
+    color: #e87a5e !important;
+}
+
+.jumbotron {
+    background: linear-gradient(135deg, #dc3545, #e87a5e);
+}
+
+.product-fig {
+    position: absolute;
+}
+
+.product-fig:hover figcaption {
+    color: white;
+    font-weight: bold;
+}
+
+.product-fig figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    font-size: large;
+    color: rgb(224, 224, 224);
+}
+
+.list-link:hover img {
+    opacity: 75%;
+}
+
+.card {
+    border-radius: 12px !important;
+    border: none;
+}
+
+.card:hover {
+    box-shadow: 0 3px 16px 0 rgb(0 0 0 / 7%);
+}
+
+.card img {
+    border-radius: 12px 12px 0 0;
+    height: 250px;
+    object-fit: cover;
+}
