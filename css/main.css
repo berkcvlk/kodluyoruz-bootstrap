@@ -17,7 +17,7 @@ body {
 }
 
 .product-fig {
-    position: absolute;
+    position: relative;
 }
 
 .product-fig:hover figcaption {
